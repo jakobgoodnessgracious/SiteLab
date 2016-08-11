@@ -1,0 +1,198 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 19, 2016, 6:22:13 PM
+    Author     : Jakob
+*/
+
+#jumbotrontopofpage {
+
+    max-height: 150px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    background-color: grey;
+}
+
+#jumbotronbottomofpage {
+    height: 100px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: grey;
+    margin-top: 54px
+
+}
+
+#mainjumbo {
+    margin-top: 110px;
+    background-color: grey;
+    padding-top: 30px;
+    height: 450px;
+    width: 43%;
+    color: #282828;
+}
+
+.circleshading{
+    width:477px;
+    height:465px;
+    border-radius:50%;
+    font-size:15px;
+    color: wheat;
+    line-height:40px;
+    text-align:center;
+    background: #171717;
+}
+.circle
+{
+    width:465px;
+    height:465px;
+    border-radius:50%;
+    font-size:14.5px;
+    color: wheat;
+    border-color: wheat;
+    line-height:37px;
+    text-align:center;
+    background:#000
+}
+
+#circletextpadding{
+    padding-top: 19px;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+    color: lightblue;
+    border-color: black;
+    background-color: grey !important; 
+}
+
+#contentmargintop{
+    margin-top:25px;
+}
+
+#indexcontentmargintop{
+    margin-top:50px;
+}
+#hrbottom {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#spacer{
+    margin-top:25px;
+    margin-bottom: 10px;
+
+
+}
+
+#pcenter {
+    text-align: center;
+}
+
+#navmargintop {
+    margin-top: 10px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+a:hover,
+a:focus {
+    color: #1fb7e1;
+    outline: 0;
+}
+
+body {
+    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    background-color: #282828;
+    color: #d3d3d3;
+    webkit-tap-highlight-color: #222;
+}
+.nav-tabs>li>a:hover, .nav>li>a:focus, .nav>li>a:hover {
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+
+.nav-tabs>li.active>a:hover, .nav>li.active>a:focus, .nav>li.active>a:hover {
+    color: #1fb7e1;
+}
+a {
+    color: lightblue;
+    font-weight: bold;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 155px; /* .push must be the same height as .footer */
+}
+
+
+
+.btn-primary{
+    border-color: #2ea468;
+}
+
+.btn-primary:hover{
+    border-color: #2ea468;
+}
+
+
+#labelemulator{
+    font-size: 14px;
+    color: #d3d3d3;
+    font-weight:700;
+
+}
+th {
+    text-align: center;
+}
+
+td {
+    width: 25%;
+}
+table{
+    margin-top: 30px;
+}
+
+#containerMargin {
+    margin-top: 20px;
+}
+
+
+.dropdown-menu {
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translate(-50%, 0);
+}
